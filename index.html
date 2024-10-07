@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- Fontawesome and font Poppins -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Wrapper Player -->
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <header>
+                <h4>Now playing</h4>
+                <h2>Sting 57th & 9th</h2>
+            </header>
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url('./images/chi-bang-cai-gat-dau.jpg');">
+
+                </div>
+            </div>
+            <div class="control">
+                <div class="btn btn-repeat ">
+                    <i class="fas fa-redo icon icon-repeat"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward icon icon-prev"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward icon icon-next"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random icon icon-random"></i>
+                </div>
+            </div>
+
+            <input type="range" name="progress" id="progress" class="progress" value="0" step="1" min="0" max="100">
+            <audio src="" class="audio"></audio>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist">
+           
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
