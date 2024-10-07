@@ -28,50 +28,50 @@ const app = {
         {
             name: 'Chỉ bằng cái gật đầu',
             singer: 'Yan Nguyễn',
-            path: '../audio/chi-bang-cai-gat-dau.mp3',
-            image: '../images/chi-bang-cai-gat-dau.jpg'
+            path: './audio/chi-bang-cai-gat-dau.mp3',
+            image: './images/chi-bang-cai-gat-dau.jpg'
         },
         {
             name: 'Đôi bờ',
             singer: 'Trúc Nhân',
-            path: '../audio/doi-bo.mp3',
-            image: '../images/doi-bo.jpg'
+            path: './audio/doi-bo.mp3',
+            image: './images/doi-bo.jpg'
         },
         {
             name: 'Đường về hai thôn',
             singer: 'Văn Mẫn',
-            path: '../audio/duong-ve-hai-thon.mp3',
-            image: '../images/duong-ve-hai-thon.jpg'
+            path: './audio/duong-ve-hai-thon.mp3',
+            image: './images/duong-ve-hai-thon.jpg'
         },
         {
             name: 'I want it that way',
             singer: 'Music Travel Love',
-            path: '../audio/i-want-it-that-way.mp3',
-            image: '../images/i-want-it-that-way.jpg'
+            path: './audio/i-want-it-that-way.mp3',
+            image: './images/i-want-it-that-way.jpg'
         },
         {
             name: 'Ít nhưng dài lâu',
             singer: 'Yan Nguyễn',
-            path: '../audio/it-nhung-dai-lau.mp3',
-            image: '../images/it-nhung-dai-lau.jpg'
+            path: './audio/it-nhung-dai-lau.mp3',
+            image: './images/it-nhung-dai-lau.jpg'
         },
         {
             name: 'Khi cô đơn em nhớ ai',
             singer: 'Xuân Hạ Thu Đông',
-            path: '../audio/khi-co-don-em-nho-ai.mp3',
-            image: '../images/khi-co-don-em-nho-ai.jpg'
+            path: './audio/khi-co-don-em-nho-ai.mp3',
+            image: './images/khi-co-don-em-nho-ai.jpg'
         },
         {
             name: 'Lớn rồi còn khóc nhè',
             singer: 'Trúc Nhân',
-            path: '../audio/lon-roi-con-khoc-nhe.mp3',
-            image: '../images/lon-roi-con-khoc-nhe.jpg'
+            path: './audio/lon-roi-con-khoc-nhe.mp3',
+            image: './images/lon-roi-con-khoc-nhe.jpg'
         },
         {
             name: 'Trăng về thôn dã',
             singer: 'Văn Mẫn',
-            path: '../audio/trang-ve-thon-da.mp3',
-            image: '../images/trang-ve-thon-da.jpg'
+            path: './audio/trang-ve-thon-da.mp3',
+            image: './images/trang-ve-thon-da.jpg'
         }
     ],
 
